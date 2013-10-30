@@ -13,5 +13,8 @@ $term->alert("ERROR", "This will be sent to STDERR\n\n");
 
 $term->color("blue", "This is blue text!\n\n");
 
+$arr = array("foo" => "bar", "baz" => "quuz");
+$term->doList("red", "blue", ":" "", $arr);
 
-Feel free to fork, there's a lot of room for improvement.
+
+Feel free to fork, there's plenty of room for improvement.
